@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             vereseg.setText("Vereség: "+veresegekSzama);
         }
 
-        if (dobasokSzama==5) {
+        if (dobasokSzama==5 || gyozelmekSzama>=3 || veresegekSzama>=3) {
             jatekVege();
         }
 
